@@ -1,0 +1,49 @@
+/* Resetting default margin and padding */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set full height to root element */
+#root {
+  height: 100vh;
+}
+
+/* Center content vertically and horizontally */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Style for the main content */
+.main-content {
+  text-align: center;
+}
+
+/* Example button style */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Example input style */
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
