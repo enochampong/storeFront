@@ -31,6 +31,12 @@ function Store() {
     }
   };
 
+  const handleSend = () => {
+    // Send items to backend here
+    console.log("Sending items to backend:", items);
+    // You can make an API call here to send the items to your backend
+  };
+
   return (
     <div className="container">
       <p>Inventory order</p>
@@ -57,6 +63,13 @@ function Store() {
         />
         <button className="button is-primary is-light" type="submit">
           Add Item
+        </button>
+        <button
+          className="button is-primary"
+          type="button"
+          onClick={handleSend}
+        >
+          Send
         </button>
       </form>
     </div>
